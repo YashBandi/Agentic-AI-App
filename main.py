@@ -64,29 +64,3 @@ if __name__ == "__main__":
         print("AI:", response)
 
 
-#Help me write a job description for a Data Scientist role
-
-
-
-
-
-
-# import openai
-# import os
-# from dotenv import load_dotenv
-
-# load_dotenv()
-
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-
-# client = openai.OpenAI()  # create client instance
-
-# response = client.chat.completions.create(
-#     model="gpt-4o-mini",
-#     messages=[
-#         {"role": "system", "content": "You are a helpful assistant."},
-#         {"role": "user", "content": "Say hello!"}
-#     ]
-# )
-
-# print(response.choices[0].message.content)
